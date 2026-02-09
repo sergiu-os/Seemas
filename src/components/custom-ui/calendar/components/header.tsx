@@ -1,7 +1,5 @@
 import { useMemo, useState } from "react";
 
-import { useDayPicker, useNavigation } from "react-day-picker";
-
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   canChangeMonth,
@@ -19,56 +17,57 @@ import { CalendarSelectEnum } from "../calendar.types";
 import CalendarCell from "./cell";
 import CalendarSelect from "./select";
 
-const CalendarHeader = () => {
-  const { fromDate, toDate, fromYear, toYear } = useDayPicker();
-  const { currentMonth, goToDate } = useNavigation();
+interface CalendarHeaderProps {
+  displayMonth: Date;
+}
+
+const CalendarHeader = ({ displayMonth }: CalendarHeaderProps) => {
   const [isOpen, setIsOpen] = useState<CalendarSelectEnum | null>(null);
+  const [displayedMonth, setDisplayedMonth] = useState<Date>(displayMonth);
 
   const currentYear = new Date().getFullYear();
   const showYears = isOpen === CalendarSelectEnum.Year;
   const showMonths = isOpen === CalendarSelectEnum.Month;
 
   const isLeftMonthArrowDisabled = useMemo(
-    () => !canChangeMonth(currentMonth, "backward", fromDate, toDate),
-    [currentMonth, fromDate, toDate]
+    () => !canChangeMonth(displayedMonth, "backward"),
+    [displayedMonth]
   );
   const isRightMonthArrowDisabled = useMemo(
-    () => !canChangeMonth(currentMonth, "forward", fromDate, toDate),
-    [currentMonth, fromDate, toDate]
+    () => !canChangeMonth(displayedMonth, "forward"),
+    [displayedMonth]
   );
 
   const isLeftYearArrowDisabled = useMemo(
-    () => !canChangeYear(currentMonth, "backward", fromDate, toDate),
-    [currentMonth, fromDate, toDate]
+    () => !canChangeYear(displayedMonth, "backward"),
+    [displayedMonth]
   );
   const isRightYearArrowDisabled = useMemo(
-    () => !canChangeYear(currentMonth, "forward", fromDate, toDate),
-    [currentMonth, fromDate, toDate]
+    () => !canChangeYear(displayedMonth, "forward"),
+    [displayedMonth]
   );
 
   const startYear = useMemo(
-    () => fromDate?.getFullYear() || fromYear || currentYear - 20,
-    [currentYear, fromDate, fromYear]
+    () => currentYear - 20,
+    [currentYear]
   );
   const endYear = useMemo(
-    () => toDate?.getFullYear() || toYear || currentYear + 20,
-    [currentYear, toDate, toYear]
+    () => currentYear + 20,
+    [currentYear]
   );
 
   const months = useMemo(
     () =>
       generateMonths(
-        currentMonth.getFullYear(),
-        currentMonth,
-        fromDate,
-        toDate
+        displayedMonth.getFullYear(),
+        displayedMonth
       ),
-    [currentMonth, fromDate, toDate]
+    [displayedMonth]
   );
 
   const years = useMemo(
-    () => generateYears(startYear, endYear, currentMonth, fromDate, toDate),
-    [currentMonth, endYear, fromDate, startYear, toDate]
+    () => generateYears(startYear, endYear, displayedMonth),
+    [displayedMonth, endYear, startYear]
   );
 
   const showData = showYears ? years : showMonths ? months : [];
@@ -82,9 +81,9 @@ const CalendarHeader = () => {
           )
         }
         isOpen={showMonths}
-        text={formatMonthShort(currentMonth)}
-        onLeftArrowClick={() => goToDate(changeMonth(currentMonth, "backward"))}
-        onRightArrowClick={() => goToDate(changeMonth(currentMonth, "forward"))}
+        text={formatMonthShort(displayedMonth)}
+        onLeftArrowClick={() => setDisplayedMonth(changeMonth(displayedMonth, "backward"))}
+        onRightArrowClick={() => setDisplayedMonth(changeMonth(displayedMonth, "forward"))}
         isLeftBtnDisabled={isLeftMonthArrowDisabled}
         isRightBtnDisabled={isRightMonthArrowDisabled}
       />
@@ -95,9 +94,9 @@ const CalendarHeader = () => {
           )
         }
         isOpen={showYears}
-        text={formatYear(currentMonth)}
-        onLeftArrowClick={() => goToDate(changeYear(currentMonth, "backward"))}
-        onRightArrowClick={() => goToDate(changeYear(currentMonth, "forward"))}
+        text={formatYear(displayedMonth)}
+        onLeftArrowClick={() => setDisplayedMonth(changeYear(displayedMonth, "backward"))}
+        onRightArrowClick={() => setDisplayedMonth(changeYear(displayedMonth, "forward"))}
         isLeftBtnDisabled={isLeftYearArrowDisabled}
         isRightBtnDisabled={isRightYearArrowDisabled}
       />
@@ -124,7 +123,7 @@ const CalendarHeader = () => {
                   key={`${item.name}_${index}`}
                   text={item.name}
                   onClick={() => {
-                    goToDate(item.goToDateValue);
+                    setDisplayedMonth(item.goToDateValue);
                     setIsOpen(null);
                   }}
                   {...item}

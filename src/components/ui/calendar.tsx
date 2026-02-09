@@ -2,13 +2,10 @@
 
 import * as React from "react";
 
-import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { DayPicker } from "react-day-picker";
 
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-
-import { Icon } from "../Icon/Icon";
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
@@ -59,25 +56,6 @@ function Calendar({
         day_hidden: "invisible",
 
         ...classNames,
-      }}
-      captionLayout="dropdown-buttons"
-      components={{
-        IconLeft: ({ className, ...props }) => (
-          <Icon
-            icon={IconChevronLeft}
-            size={16}
-            className={cn("", className)}
-            {...props}
-          />
-        ),
-        IconRight: ({ className, ...props }) => (
-          <Icon
-            icon={IconChevronRight}
-            size={16}
-            className={cn("", className)}
-            {...props}
-          />
-        ),
       }}
       {...props}
     />
