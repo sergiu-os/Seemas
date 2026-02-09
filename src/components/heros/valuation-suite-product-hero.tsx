@@ -20,7 +20,6 @@ interface ValuationSuiteProductHeroProps {
 }
 
 const ValuationSuiteProductHero = ({
-  backgroundImageProps,
   wrapperClassName,
   heroHeading,
   logoProps,
