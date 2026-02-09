@@ -49,6 +49,7 @@ const ValuationSuitePage = () => {
           }}
           imageProps={contentImageProps}
           logoProps={logoProps}
+          page="valuation-suite"
         />
         <ExploreSection 
           title="Explore the Valuation Suite"

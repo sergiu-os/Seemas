@@ -68,8 +68,10 @@ const TransferPricingPage = () => {
             description: `SeemaS is redefining how multinational organizations handle tax. Our platform integrates automation, analytics, and regulatory intelligence so global tax teams can file, strategize, and scale with confidence.`,
             descriptionClassName: "text-body-s xl:max-w-[896px] md:text-body-l",
             badgeClassName: "mb-4"
+           
           }}
           bottomItems={bottomItems}
+          page="transfer-pricing"
         />
         <ExploreSection 
           title="Explore the <br class='block 2xl:hidden' />Transfer Pricing Suite"

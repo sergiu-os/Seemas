@@ -16,7 +16,7 @@ const ChooseSection = () => {
                 options={{ direction: "horizontal" }}
               />
             </div>
-            <p className="max-w-[638px] text-body-s md:text-body-xl text-zinc-800 min-[1440px]:mb-6">
+            <p className="max-w-[638px] text-body-s md:text-body-xl 2xl:text-base text-zinc-800 min-[1440px]:mb-6">
               Spend less time guessing and more time delivering solutions.
             </p>
             {/* <div className="flex gap-2.5">

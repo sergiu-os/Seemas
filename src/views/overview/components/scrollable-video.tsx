@@ -353,13 +353,13 @@ const ScrollableVideo: FC<ScrollableVideoProps> = ({
                       <div className="flex items-center gap-2">
                         <div
                             className={cn(
-                            "text-blue-primary [&_svg]:size-6 xl:[&_svg]:size-8 [&_svg]:stroke-1"
+                            "text-blue-primary [&_svg]:size-8 [&_svg]:stroke-[1.5]"
                             )}
                             aria-hidden="true"
                         >
                             <Icon />
                         </div>
-                        <p className="text-zinc-800 text-subtitle-xs xl:hidden">
+                        <p className="text-zinc-900 text-subtitle-xs xl:hidden">
                             {card.title}
                         </p>
                       </div>
