@@ -8,17 +8,16 @@ import Image from "next/image";
 import { ROUTES } from "@/constants/routes";
 import React from "react";
 
+const SplineScene = React.memo(function SplineScene() {
+  return (
+    <Spline
+      scene="https://prod.spline.design/nMb6R20z-ZvTsDg4/scene.splinecode"
+      className="w-full h-full"
+    />
+  )
+});
+
 const Hero = () => {
-
-  const SplineScene = React.memo(() => {
-    return (
-      <Spline
-        scene="https://prod.spline.design/nMb6R20z-ZvTsDg4/scene.splinecode"
-        className="w-full h-full"
-      />
-    )
-  });
-
   return (
     <SectionWrapper className="pt-[128px] xl:pt-[156px] pb-0 h-[880px] md:h-[867px] xl:h-[1160px] relative overflow-hidden bg-zinc-50">
       <div className="absolute left-1/2 -translate-x-1/2 w-[clamp(510px,209.77px+76.98vw,801px)] h-[clamp(513px,209.67px+77.78vw,807px)] bottom-[clamp(-457px,57.21px-66.93vw,-204px)] xl:w-[1238px] xl:h-[1246px] xl:bottom-[-695px]">
