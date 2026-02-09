@@ -45,7 +45,7 @@ const WhyUsAccordion = ({
     >
       {items.map((item) => (
         <AccordionItem key={item.value} value={item.value} className="border-none">
-          <AccordionTrigger className="px-3 py-3 bg-white bg-opacity-40 backdrop-filter backdrop-blur-[2px] border border-white rounded-xl data-[state=open]:rounded-b-none data-[state=open]:rounded-l-none data-[state=open]:pb-2">
+          <AccordionTrigger className="px-3 py-3 bg-white bg-opacity-40 data-[state=open]:bg-opacity-80 backdrop-filter backdrop-blur-[2px] border border-white rounded-xl data-[state=open]:rounded-b-none data-[state=open]:rounded-l-none data-[state=open]:pb-2 ">
             <div className="flex items-center gap-4">
               <div className="p-2 rounded-lg border border-zinc-100">{item.icon ? item.icon : null}</div>
               <p className="text-body-m text-zinc-900">{item.title}</p>

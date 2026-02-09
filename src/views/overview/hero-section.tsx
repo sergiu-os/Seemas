@@ -13,7 +13,7 @@ const HeroSection = () => {
         subtitle="AI-powered documentation tax authorities and auditors can trust"
         description="The SeemaS Platform delivers clear, defensible valuation and transfer pricing analysis and documentation that eases engagement with tax authorities and auditors while uncovering opportunities across complex global operations"
         titleClassName="max-w-[600px] xl:max-w-[872px] text-h4"
-        descriptionClassName="max-w-[796px] px-0 mb-8 xl:mb-6 xl:text-body-l"
+        descriptionClassName="max-w-[600px] 2xl:max-w-[796px] px-0 mb-8 xl:mb-6 xl:text-body-l"
         buttonConfig={[
           {
             children: "Book a Demo",

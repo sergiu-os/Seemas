@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
 
 const phrases = [
-  "Automate TP",
+  "Automate Transfer Pricing",
   "Streamline Compliance",
   "Mitigate Audit Risk",
   "Enhance Visibility",

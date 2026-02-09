@@ -37,6 +37,7 @@ const ScrollableVideoSection = () => {
         <SectionHeader 
             headingLevel="h3"
             title="AI-Powered, End-to-End Solution" 
+            titleClassName="mb-4"
             description="SeemaS supports the full tax and valuation lifecycle - from data ingestion and analysis to reporting and review - combining AI automation with expert oversight at every stage."
             descriptionClassName="max-w-[728px] mx-auto" 
             className="mb-8 xl:mb-14"

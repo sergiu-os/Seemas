@@ -28,7 +28,7 @@ const HeroContent = ({
         </div>
       ) : null}
       {imageProps ? (
-        <div className="relative  pt-4 px-4 border border-neutral-100/40 bg-white rounded-t-2xl mx-auto overflow-hidden">
+        <div className="relative  pt-4 px-4 border border-white/40 bg-white rounded-t-2xl mx-auto overflow-hidden">
           <div className="relative min-w-[588px] h-[368px] md:h-[350px] xl:h-[660px] rounded-t-xl border-2 xl:border-4 border-b-0 xl:border-b-0 border-neutral-100 shadow-[0_10px_24px_-4px_rgba(16,15,36,0.08),0_4px_16px_-4px_rgba(15,36,17,0.02)] overflow-hidden">
             <Image
               fill

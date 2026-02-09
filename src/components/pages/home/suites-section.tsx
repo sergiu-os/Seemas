@@ -26,6 +26,7 @@ const iconStrokeWidth = 1.8;
 const iconStrokeColor = '#266AE9';
 
 const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headingLevel?: "h2" | "h3" | "h4" | "h5" | "h6", sectionWrapperClassName?: string }) => {
+
   return (
     <SectionWrapper className={cn("relative pt-[160px] pb-[80px] md:pt-[200px] md:pb-[100px] xl:pt-[224px] bg-[#FAFAFA]", sectionWrapperClassName)}>
       <div className="absolute top-0 right-0 w-full h-full z-[1]">
@@ -70,12 +71,12 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
                 title: <Image src="/assets/Damodaran-logo.svg" alt="damodaran-logo" width={132} height={26} />,
                 icon: <IconSparkles2 size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
                 description:
-                  "Answer complex valuation questions with an AI valuation expert grounded in Professor Damodaran’s trusted methodologies.",
+                  "AI-Expert using professor Damodorans knowledge base to answer valuation questions.",
               },
             ]}
             center={
               <Image
-                src="/assets/logo-graphic-2.png"
+                src="/assets/logo-graphic.png"
                 alt="logo-graphic"
                 className="max-w-[164px] max-h-[80px] md:max-w-[238px] md:max-h-[116px] xl:max-w-[400px] xl:max-h-[195px]"
                 width={400}
