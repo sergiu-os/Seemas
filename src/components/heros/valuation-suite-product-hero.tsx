@@ -5,10 +5,7 @@ import { ImageProps } from "next/image";
 import BgLinesXl from "./elements/bg-lines-xl";
 import BgLinesMd from "./elements/bg-lines-md";
 import BgLines from "./elements/bg-lines";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
-
-const valuationBackground = "/valuation-suite/valuation-bg.png";
 
 interface ValuationSuiteProductHeroProps {
   backgroundImageProps?: ImageProps;
