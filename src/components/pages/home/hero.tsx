@@ -30,7 +30,7 @@ const Hero = () => {
             className="size-full object-fill"
           />
         </div>
-        <div className="size-[142%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2]">
+        <div className="size-[142%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2] will-change-transform">
           <SplineScene />
         </div>
       </div>

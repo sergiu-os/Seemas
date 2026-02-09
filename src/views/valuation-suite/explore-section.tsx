@@ -1,6 +1,5 @@
 import SectionWrapper from "@/components/sections/section-wrapper";
 import { SuiteCard, type SuiteCardItem } from "@/components/suites/suite-card";
-import LogoValuation from "@/components/icons/logo-valuation";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
@@ -34,18 +33,25 @@ const ExploreSection = ({ title, cards, wrapperClassName }: ExploreSectionProps)
         <div className="flex flex-col gap-8 md:gap-14 relative z-[2]">
             <div className="flex justify-between items-center">
                 <h2 className={cn("text-subtitle-xl text-zinc-900 w-[222px] md:text-h3 md:w-[355px] xl:w-full", cardsNumber(cards || []) > 4 ? "w-[241px] md:w-[513px]" : "")} dangerouslySetInnerHTML={{ __html: title || "" }} />
-                <LogoValuation className="w-[97px] md:w-auto"/>
+                 <Image
+                                src="/assets/logo-graphic-2.png"
+                                alt="logo-graphic"
+                                className="mb-auto w-[97px] md:w-auto"
+                                width={164}
+                                height={80}
+                               
+                              />
             </div>
             {cardsNumber(cards || []) <= 4 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-6">
                     {cards?.map((card, index) => (
-                        <SuiteCard key={index} item={card} className="flex flex-col md:h-[252px] xl:w-full xl:h-[200px]" descriptionClassName="text-zinc-600 xl:text-body-s"/>
+                        <SuiteCard key={index} item={card} className="flex flex-col md:h-[252px] xl:w-full xl:h-[200px]" descriptionClassName="text-zinc-700 xl:text-body-s"/>
                     ))}
                 </div>
             ) : cardsNumber(cards || []) > 4 ? (
                 <div className="grid grid-cols-2 gap-x-3 gap-y-4 md:gap-4 xl:grid-cols-4">
                     {cards?.map((card, index) => (
-                        <SuiteCard key={index} item={card} className="flex flex-col p-3 xl:w-full xl:h-full" descriptionClassName="text-zinc-600 xl:text-body-m" iconWrapperClassName="flex-col items-start md:items-center md:flex-row" titleClassName="text-subtitle-xs md:text-subtitle-s"/>
+                        <SuiteCard key={index} item={card} className="flex flex-col p-3 xl:w-full xl:h-full" descriptionClassName="text-zinc-700 xl:text-body-m" iconWrapperClassName="flex-col items-start md:items-center md:flex-row" titleClassName="text-subtitle-xs md:text-subtitle-s"/>
                     ))}
                 </div>
             ) : null} 

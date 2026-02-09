@@ -32,7 +32,7 @@ const iconStrokeWidth = 1.8;
 const iconStrokeColor = '#266AE9';
 
 const backgroundImageProps = {
-  src: "/transfer-pricing/pricing-hero-desktop.png",
+  src: "/transfer-pricing/pricing-hero-bg-desktop.png",
   alt: "Transfer Pricing Background",
 }
 
@@ -60,6 +60,7 @@ const TransferPricingPage = () => {
           wrapperClassName="h-[656px] md:h-[606px] xl:h-[800px]"
           heroHeading={{
             title: " Transfer Pricing Suite",
+            titleClassName: 'text-zinc-900',
             badge: {
               text: "Scalable. Secure. Built for Global Tax Teams.",
               leftIcon: <IconWorld size={16} className="text-blue-primary" />,
@@ -71,7 +72,7 @@ const TransferPricingPage = () => {
           bottomItems={bottomItems}
         />
         <ExploreSection 
-          title="Explore the <br class='hidden md:block' />Transfer Pricing Suite"
+          title="Explore the <br class='block 2xl:hidden' />Transfer Pricing Suite"
           wrapperClassName="pt-[80px] md:pt-[200px] xl:pt-[112px]"
           cards={[ 
             {
@@ -183,22 +184,22 @@ const TransferPricingPage = () => {
             {
               icon: <IconFileShredder size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor} className="size-7 xl:size-8"/>,
               title: "Data Intake",
-              description: "AI agents parse trial balances and financial statements, extract key information, and retain adjustments.",
+              description: "Centralize global financial, operational, and transactional data with built-in validation and controlled access.",
             },
             {
               icon: <IconSettings size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor} className="size-7 xl:size-8"/>,
               title: "Method Selection",
-              description: "Guardrailed method selection based on engagement context and instrument-specific assumptions.",
+              description: "Apply OECD-aligned transfer pricing methods with AI-guided policy logic and jurisdictional rules.",
             },
             {
               icon: <IconChartInfographic size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor} className="size-7 xl:size-8"/>,
               title: "Analysis",
-              description: "Expert model for estimating reliable arm’s length pricing under multiple scenarios.",
+              description: "Perform benchmarking, transaction testing, reconciliations, and true-ups with automated economic analysis.",
             },
             {
               icon: <IconFileDescription size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor} className="size-7 xl:size-8"/>,
               title: "Report Authoring",
-              description: "LLM-powered authoring generates reports from enterprise templates with AI-assisted edits.",
+              description: "Generate defensible Master File, Local File, and CbCR documentation directly from validated data.",
             },
           ]}
           platformCardsClassName="px-4 py-14 md:py-16 md:px-6 xl:px-16"

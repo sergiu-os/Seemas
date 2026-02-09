@@ -6,6 +6,13 @@ import { Button } from "../../components/ui/button";
 import { EClasses } from "@/constants/classes";
 import { cn } from "@/lib/utils";
 import { ROUTES } from "@/constants/routes";
+import React from "react";
+
+const SplineScene = React.memo(function SplineScene() {
+  return (
+    <Spline scene="https://prod.spline.design/hNqf223j6iaVS-5b/scene.splinecode" />
+  );
+});
 
 const TrySection = ({
   title = "Try the SeemaS Platform",
@@ -37,7 +44,7 @@ const TrySection = ({
             <LinkWrapper href={ROUTES.BOOK_DEMO}>{buttonText}</LinkWrapper>
           </Button>
           <div className="absolute inset-0 z-[-1] bg-[linear-gradient(0deg,rgba(3,3,3,0.75)_0%,rgba(3,3,3,0.75)_100%)] blur-[3px] pointer-events-none">
-            <Spline scene="https://prod.spline.design/hNqf223j6iaVS-5b/scene.splinecode" />
+            <SplineScene />
           </div>
         </div>
       </SectionContainer>

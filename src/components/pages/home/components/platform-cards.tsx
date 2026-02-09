@@ -42,7 +42,7 @@ const PlatformCards = ({ cards, className }: PlatformCardsProps) => {
                 {/* Wrapper ONLY when descriptions are present */}
                 <div className="flex items-center gap-3 xl:flex-col xl:items-start">
                   <div className="flex">{card.icon}</div>
-                  <p className="text-subtitle-xs 2xl:text-subtitle-m text-zinc-900">
+                  <p className="text-subtitle-xs md:text-xl 2xl:text-subtitle-m text-zinc-900">
                     {card.title}
                   </p>
                 </div>

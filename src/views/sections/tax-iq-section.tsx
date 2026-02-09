@@ -15,8 +15,7 @@ const TaxIQSection = () => {
               Meet <span className="text-blue-primary">TaxIQ</span>
             </h3>
             <p className="text-body-s md:text-body-m text-zinc-800 mb-6 md:mb-8">
-              Imagine having a world-class global tax expert just a consult away
-              — anytime you need! Now with SeemaS TaxIQ, you do!
+             Have a world-class transfer pricing expert just a click away.
             </p>
             <LinkWrapper href={external_links.seemas_taxiq}>
               <Button>Try now</Button>
