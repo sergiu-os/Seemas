@@ -59,8 +59,8 @@ const Footer = () => {
           <div className="flex flex-col items-center text-center md:text-left md:items-stretch gap-4 pb-[31px] border-b border-zinc-800 md:pb-0 md:border-b-0">
             <Logo />
             <p className="text-zinc-400 text-body-s max-w-[383px]">
-              Powered by AI and founded by world-renowned experts on global
-              taxation and valuation.
+              Powered by AI and founded by world-renowned experts on 
+              valuation and transfer pricing. 
             </p>
             <div className="flex items-center gap-2">
               {socialIcons.map(icon => (

@@ -19,12 +19,6 @@ const HeroSection = () => {
             variant: "primary",
             size: "L",
             href: ROUTES.BOOK_DEMO,
-          },
-          {
-            children: "Watch Video",
-            variant: "outline",
-            size: "L",
-            href: "#"
           }
         ]}
       />

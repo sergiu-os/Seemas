@@ -34,7 +34,7 @@ export const leadershipTeamMembers: ProfileType[] = [
   {
     image: "/about-us/avatars/Karen Marinov.png",
     name: "Karen Marinov, MBA",
-    role: "Chief of Staff",
+    role: "Director of Business Operations",
     className: "col-start-2",
     bottomCaption: "UCB, SCU, Acacia, Carr & Ferrel",
   },

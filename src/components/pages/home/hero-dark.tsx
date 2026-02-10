@@ -31,13 +31,7 @@ const Hero = () => {
             variant: "primary",
             size: "L",
             href: ROUTES.BOOK_DEMO,
-          },
-          {
-            children: "Watch Video",
-            variant: "outline",
-            size: "L",
-            className: "text-white",
-          },
+          }
         ]}
       />
 

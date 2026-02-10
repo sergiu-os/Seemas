@@ -14,7 +14,6 @@ const PlatformOverviewPage = () => {
       <ChooseSection />
       <ScrollableVideoSection />
       <SuitesSection headingLevel="h4" sectionWrapperClassName="pt-[80px] md:pt-[100px] xl:pt-[112px]" />
-      <VideoSection />
       <QuoteSection />
       <TrySection headingLevel="h6" />
     </PageWrapper>
