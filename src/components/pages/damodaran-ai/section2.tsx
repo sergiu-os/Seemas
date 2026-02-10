@@ -24,7 +24,7 @@ const Section2 = () => {
 Renowned for his ability to make complex financial concepts accessible and practical, Professor Damodaran has authored numerous best-selling books and academic papers, and his valuation models are widely used by professionals, investors, and institutions around the globe. \n
 His dedication to open knowledge and education has made him a beloved figure among students and practitioners alike. Through his teaching, writing, and extensive public resources, he has fundamentally transformed how valuation is taught and applied in the real world.`}
         </p>
-        <div className="pt-4 flex border-t border-zinc-100 gap-3">
+        <div className="pt-4 flex border-t border-zinc-100 gap-3 justify-between lg:justify-start">
           {professor_damodaran_socials.map(
             ({ icon: Icon, iconProps, ...social }) => (
               <Link

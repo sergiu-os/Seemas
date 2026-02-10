@@ -35,7 +35,7 @@ const SectionHeader = ({
       </HeadingTag>
       <p
         className={cn(
-          "text-body-s text-body-sm 2xl:text-body-m text-zinc-800 whitespace-pre-line",
+          "text-body-s md:text-body-m text-zinc-800 whitespace-pre-line",
           !description && "hidden",
           variant === "light" ? "text-zinc-800" : "text-zinc-200",
           descriptionClassName

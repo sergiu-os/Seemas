@@ -68,8 +68,8 @@ const logoIcon = logo ? logo : <SeemasLogoIcon fill="currentColor" className="w-
           />
         )}
         <div className={cn('flex flex-col', authorClassName)}>
-          <p className="text-body-l md:text-body-xl text-zinc-700">{authorName}</p>
-          <span className="text-body-s md:text-body-m text-zinc-400">{authorTitle}</span>
+          <p className="text-subtitle-m md:text-body-xl text-zinc-700">{authorName}</p>
+          <span className="text-body-m text-zinc-400">{authorTitle}</span>
         </div>
       </div>
     </SectionWrapper>

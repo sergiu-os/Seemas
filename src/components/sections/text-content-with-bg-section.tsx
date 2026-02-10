@@ -35,7 +35,7 @@ const TextContentWithBgSection = ({
       </div>
 
       <svg
-        className="absolute bottom-[-276px] left-[143px]"
+        className="absolute bottom-[-355px] lg:bottom-[-276px] left-[40px] lg:left-[143px]"
         xmlns="http://www.w3.org/2000/svg"
         width="6"
         height="481"
@@ -87,7 +87,7 @@ const TextContentWithBgSection = ({
         </defs>
       </svg>
       <svg
-        className="absolute top[-39px] left-[27px]"
+        className="absolute top-[30px] left-[0px] lg:top[-39px] lg:left-[27px]"
         xmlns="http://www.w3.org/2000/svg"
         width="674"
         height="6"
@@ -144,7 +144,7 @@ const TextContentWithBgSection = ({
         height="6"
         viewBox="0 0 393 6"
         fill="none"
-        className="absolute bottom-[45px] right-[-135px]"
+        className="absolute bottom-[76px] lg:bottom-[45px] right-[-65px] lg:right-[-135px]"
       >
         <g filter="url(#filter0_f_2535_811)">
           <path

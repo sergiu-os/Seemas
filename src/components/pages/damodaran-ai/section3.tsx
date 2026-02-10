@@ -44,12 +44,17 @@ const listItems: ListItem[] = [
         {
           src: "/assets/damodaran-ai/damodaran-card-xl.png",
           alt: "Damodaran AI",
-          className: "object-cover absolute h-full block md:hidden xl:block",
+          className: "object-cover absolute h-full hidden xl:block",
         },
         {
           src: "/assets/damodaran-ai/damodaran-card.png",
           alt: "Damodaran AI",
           className: "object-cover absolute h-full hidden md:block xl:hidden",
+        },
+        {
+          src: "/assets/damodaran-ai/damodaran-card-sm.png",
+          alt: "Damodaran AI",
+          className: "object-cover absolute h-full block md:hidden",
         },
       ],
     },
@@ -113,6 +118,7 @@ const Section3 = () => {
         title={`Meet Damodaran AI`}
         description={`Have a world-class valuation expert just a click away.`}
         headingLevel="h3"
+        descriptionClassName="text-md"
       />
 
       <StepsList>

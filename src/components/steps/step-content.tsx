@@ -23,7 +23,7 @@ export const StepContent: FC<StepContentProps> = ({
 }) => (
   <div className={cn("flex flex-col justify-center", className)}>
     <div className="relative pb-4 mb-4 md:pb-6 md:mb-6">
-      <h4 className="text-zinc-900 text-subtitle-m md:text-subtitle-xl xl:text-h4 mb-1">
+      <h4 className="text-zinc-900 text-subtitle-l md:text-subtitle-xl xl:text-h4 mb-1">
         {showNumber && (
           <span className="text-subtitle-s md:text-subtitle-l xl:text-3xl/[120%] font-medium text-zinc-300">
             {stepNumber}.
@@ -38,7 +38,7 @@ export const StepContent: FC<StepContentProps> = ({
     </div>
     <ul
       className={cn(
-        "grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-1 xl:gap-2",
+        "grid gap-1 grid-cols-2 xl:grid-cols-1 xl:gap-2",
         pointsListClassName
       )}
     >
