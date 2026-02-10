@@ -3,7 +3,7 @@ import { NavigationOption, TExternalLoginOption, TSubLink } from "@/types";
 import {
   IconBuilding,
   IconArrowsExchange2,
-  IconBrandYoutube,
+  IconBrandYoutubeFilled,
   IconBrandX,
 } from "@tabler/icons-react";
 import LinkedinIcon from "@/assets/icons/linkedin.svg";
@@ -23,7 +23,7 @@ export const professor_damodaran_socials = [
   {
     label: "Youtube",
     href: "https://www.youtube.com/@AswathDamodaranonValuation",
-    icon: IconBrandYoutube,
+    icon: IconBrandYoutubeFilled,
   },
   {
     label: "LinkedIn",

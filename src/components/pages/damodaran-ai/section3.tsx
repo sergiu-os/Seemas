@@ -111,7 +111,7 @@ const Section3 = () => {
       <SectionHeader
         className="gap-4"
         title={`Meet Damodaran AI`}
-        description={`What if you could talk to a world-class valuation expert, any time?\n Now you can — with Damodaran AI.`}
+        description={`Have a world-class valuation expert just a click away.`}
         headingLevel="h3"
       />
 

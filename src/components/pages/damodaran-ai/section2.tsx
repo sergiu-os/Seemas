@@ -7,7 +7,7 @@ import Image from "next/image";
 const Section2 = () => {
   return (
     <SectionWrapper
-      className="xl:pt-[256px]"
+      className=""
       contentWrapperClassName="flex flex-col xl:flex-row gap-8 xl:gap-16 items-center"
     >
       <div className="flex flex-col gap-4">

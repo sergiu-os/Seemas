@@ -31,7 +31,7 @@ export const StepContent: FC<StepContentProps> = ({
         )}{" "}
         {title}
       </h4>
-      <p className="text-body-s text-zinc-500 whitespace-pre-line md:text-body-m">
+      <p className="text-body-s text-zinc-800 whitespace-pre-line md:text-body-m">
         {description}
       </p>
       <div className="absolute bottom-0 w-full h-px bg-zinc-100"></div>
