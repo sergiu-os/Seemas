@@ -76,7 +76,7 @@ const HeroSection = () => {
           }
           description="At SeemaS, we are revolutionizing corporate tax compliance with domain-specific proprietary AI. Our mission is to reduce the time, costs, and complexity of tax planning, enabling global enterprises to focus on growth."
           titleClassName="max-w-[1068px]"
-          descriptionClassName="max-w-[896px]"
+          descriptionClassName="max-w-[896px] 2xl:max-w-[720px]"
         />
 
         <div className="relative grid grid-cols-1 xl:grid-cols-[536px_616px] gap-6 md:gap-8 xl:gap-16 content-start p-4 md:p-8 rounded-2xl bg-neutral-25 outline outline-1 outline-zinc-100 -outline-offset-1 xl:h-[320px] overflow-hidden">

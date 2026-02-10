@@ -8,6 +8,7 @@ const SectionQuote = () => {
       authorImageSrc="/assets/testimonials/lip-bu-tan.png"
       authorImageAlt="Lip-Bu Tan avatar"
       contentWrapperClassName="xl:max-w-[1140px]"
+      showLogo={false}
     />
   );
 };

@@ -9,7 +9,7 @@ const Culture = () => {
         description="We are a team of thinkers, builders, and problem‑solvers united by a drive to use technology to tackle the most nuanced challenges in global finance."
         headingLevel="h3"
         className="xl:gap-6 mb-14"
-        descriptionClassName="xl:text-body-xl md:w-[611px] xl:w-[822px] mx-auto"
+        descriptionClassName="2xl:text-xl md:w-[611px] xl:w-[822px] mx-auto"
       />
       <div className="mb-6">
         <Image
