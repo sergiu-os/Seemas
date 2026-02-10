@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </div>
         <div className="absolute top-[135px] md:top-[209px] xl:top-[312px] left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2] will-change-transform w-full">
-          <video autoPlay muted loop className="w-full h-full object-contain">
+          <video autoPlay muted loop playsInline className="w-full h-full object-contain">
             <source src="/assets/videos/homepage-hero.mp4" type="video/mp4" />
           </video>
         </div>
