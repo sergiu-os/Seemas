@@ -1,6 +1,5 @@
 import HeroHeader from "@/components/headers/hero-header";
 import PlatformOverviewHeroBg from "./components/hero-bg/platform-overview-hero-bg";
-import Spline from "@splinetool/react-spline/next";
 import { ROUTES } from "@/constants/routes";
 
 const HeroSection = () => {
@@ -30,10 +29,13 @@ const HeroSection = () => {
         ]}
       />
 
-      <Spline
-        scene="https://prod.spline.design/83WGuixE7CE4ONap/scene.splinecode"
-        className="absolute z-[1] left-1/2 -translate-x-1/2 bottom-[-120px] md:bottom-[-279px] xl:bottom-[-641px] !w-[754px] !h-[375px] md:!w-[1478px] md:!h-[734px] xl:!w-[2788px] xl:!h-[1384px] pointer-events-none"
-      />
+      <div className="absolute z-[2] left-1/2 scale-(2) -translate-x-1/2 bottom-0 md:-bottom-[100px] lgg:-bottom-[230px] xl:-bottom-[100px] 2xl:-bottom-[285px] w-full h-auto">
+        <video autoPlay muted loop className="w-full h-auto object-cover pointer-events-none scale-[1.8] lg:scale-[1.5] lgg:scale-[1.1]">
+          <source src="/assets/videos/tiles.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+     
 
       <div className="absolute z-[3] left-0 right-0 bottom-0 h-[324px] md:h-[444px] bg-[linear-gradient(180deg,rgba(250,250,250,0.00)_79.95%,#FAFAFA_100%)]" />
     </section>

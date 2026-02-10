@@ -3,19 +3,9 @@ import SectionWrapper from "@/components/sections/section-wrapper";
 
 import SquareSkewed from "@/components/icons/square-skewed";
 import SquareSkewedCurved from "@/components/icons/square-skewed-curved";
-import Spline from "@splinetool/react-spline/next";
 import Image from "next/image";
 import { ROUTES } from "@/constants/routes";
 import React from "react";
-
-const SplineScene = React.memo(function SplineScene() {
-  return (
-    <Spline
-      scene="https://prod.spline.design/nMb6R20z-ZvTsDg4/scene.splinecode"
-      className="w-full h-full"
-    />
-  )
-});
 
 const Hero = () => {
   return (
@@ -30,8 +20,10 @@ const Hero = () => {
             className="size-full object-fill"
           />
         </div>
-        <div className="size-[142%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2] will-change-transform">
-          <SplineScene />
+        <div className="absolute top-[135px] md:top-[209px] xl:top-[312px] left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2] will-change-transform w-full">
+          <video autoPlay muted loop className="w-full h-full object-contain">
+            <source src="/assets/videos/homepage-hero.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
 

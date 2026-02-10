@@ -12,15 +12,14 @@ export interface SectionPlatformProps {
     cards?: PlatformCardsProps["cards"];
     platformCardsClassName?: string;
     platformBackgroundClassName?: string;
-    splineClassName?: string;
 }
 
-const SectionPlatform = ({ cards, platformCardsClassName, platformBackgroundClassName, splineClassName }: SectionPlatformProps) => {
+const SectionPlatform = ({ cards, platformCardsClassName, platformBackgroundClassName }: SectionPlatformProps) => {
   return (
     <SectionWrapper>
         <div className="relative bg-[#FAFAFA] rounded-2xl overflow-hidden">
             <div className={cn("absolute inset-0 bg-[linear-gradient(0deg,rgba(250,250,250,0.85)_0%,#FAFAFA_80.45%)] z-[2]", platformBackgroundClassName)}>
-                <PlatformBackground platformBackgroundClassName={platformBackgroundClassName} splineClassName={splineClassName} />      
+                <PlatformBackground platformBackgroundClassName={platformBackgroundClassName} />      
             </div>
             <div className={cn("flex flex-col items-center relative z-[4] px-[25px] py-16 xl:px-20", platformCardsClassName)}>
                 <SectionHeader 

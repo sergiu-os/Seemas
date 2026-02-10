@@ -1,7 +1,6 @@
 import HeroHeader from "@/components/headers/hero-header";
 import SectionWrapper from "@/components/sections/section-wrapper";
 import { external_links } from "@/config/site";
-import Spline from "@splinetool/react-spline/next";
 import Image from "next/image";
 import DamodaranLogo from "@/components/icons/damodaran-logo";
 import BlueLine from "@/components/icons/blue-line";
@@ -15,8 +14,29 @@ const Hero = () => {
       className="py-[128px] xl:py-0 h-[812px] md:h-[1080px] relative overflow-hidden bg-neutral-50"
       contentWrapperClassName="flex flex-col xl:justify-center h-full"
     >
-      <div className="absolute w-[457.03px] h-[460px] -bottom-[35px] right-1/2 translate-x-1/2 md:max-w-none md:max-h-none md:w-[769px] md:h-[774px] xl:translate-x-0 xl:bottom-auto xl:-right-[97px] 2xl:right-0 xl:top-[153px] 3xl:right-[calc((100vw-1280px)/2-223px)]">
-        <Spline scene="https://prod.spline.design/O2W4zZ1L0iP7wLI4/scene.splinecode" />
+      <div 
+        className="
+        absolute 
+        right-1/2
+        xl:-right-[400px] 
+        2xl:-right-[200px]
+        translate-x-1/2 
+        top-[65%]
+        md:top-[35%]
+
+        bottom-[34px]
+        md:-bottom-[35px] 
+        md:max-w-none 
+        md:max-h-none 
+        xl:translate-x-0 
+        xl:bottom-auto 
+        xl:top-[180px] 
+        aspect-[16/9] 
+        md:scale-[0.6] 
+        top-[280px]
+       
+      ">
+        <video src="/assets/videos/ai-stars.mp4" autoPlay loop muted className="w-full h-full object-cover" />
       </div>
       <div className="absolute bg-[radial-gradient(44.34%_50.9%_at_50%_62.68%,rgba(250,250,250,0.00)_0%,rgba(250,250,250,0.80)_100%)] w-[404px] h-[397px] right-1/2 translate-x-1/2 -bottom-[18px] md:w-[680px] md:h-[667px] md:bottom-0 xl:w-[970px] xl:h-[952px] xl:right-0 xl:bottom-0 xl:translate-x-0 3xl:right-[calc((100vw-1280px)/2-320px)]" />
       <div className="flex justify-between absolute md:bottom-[20px] xl:-bottom-[200px] md:gap-[400px] md:left-1/2 md:-translate-x-1/2 xl:translate-x-0 xl:gap-0 xl:left-0 xl:right-0">

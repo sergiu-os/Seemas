@@ -105,7 +105,6 @@ const ValuationSuitePage = () => {
           ]}
           platformCardsClassName="px-4 py-14 md:py-16 md:px-6 xl:px-16"
           platformBackgroundClassName="bg-[linear-gradient(0deg,#FAFAFA_35%,rgba(250,250,250,0.90)_125.15%)] md:bg-[linear-gradient(0deg,#FAFAFA_0%,rgba(250,250,250,0.90)_125.15%)]"
-          splineClassName="top-[-130px] md:top-0"
         />
         <ApartSection 
           cards={[
