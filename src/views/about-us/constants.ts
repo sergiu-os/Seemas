@@ -35,7 +35,6 @@ export const leadershipTeamMembers: ProfileType[] = [
     image: "/about-us/avatars/Karen Marinov.png",
     name: "Karen Marinov, MBA",
     role: "Director of Business Operations",
-    className: "col-start-2",
     bottomCaption: "UCB, SCU, Acacia, Carr & Ferrel",
   },
 ];
@@ -54,6 +53,7 @@ export const domainTeamMembers: ProfileType[] = [
     name: "Rahul Bhatia",
     role: "Transfer Pricing & International Taxes Domain Leader",
     image: "/about-us/avatars/Rahul Bhatia.png",
+    className: "col-start-2",
   },
 ];
 export const technicalTeamMembers: ProfileType[] = [

@@ -9,31 +9,53 @@ const Culture = () => {
         description="We are a team of thinkers, builders, and problem‑solvers united by a drive to use technology to tackle the most nuanced challenges in global finance."
         headingLevel="h3"
         className="xl:gap-6 mb-14"
-        descriptionClassName="2xl:text-xl md:w-[611px] xl:w-[822px] mx-auto"
+        descriptionClassName="2xl:text-xl md:w-[611px] xl:w-[822px] mx-auto text-body-m"
+        titleClassName="text-h4 md:text-h3"
       />
-      <div className="mb-6">
+      <div className="mb-2 lg:mb-6">
         <Image
           src="/about-us/group-photo-1.png"
           alt="group photo"
           width={1280}
           height={628}
-          className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full"
+          className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full hidden md:block"
+        />
+         <Image
+          src="/about-us/group-photo-1-mobile.jpg"
+          alt="group photo"
+          width={1280}
+          height={628}
+          className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full block md:hidden"
         />
       </div>
-      <div className="flex gap-8 flex-col md:flex-row">
+      <div className="flex gap-2 lg:gap-8 flex-col md:flex-row">
           <Image
             src="/about-us/group-photo-2.png"
             alt="Group Photo 1"
             width={624}
             height={490}
-            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full"
+            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full hidden md:block"
+          />
+          <Image
+            src="/about-us/group-photo-2-mobile.jpg"
+            alt="group photo"
+            width={1280}
+            height={628}
+            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full block md:hidden"
           />
           <Image
             src="/about-us/group-photo-3.png"
             alt="Group Photo 2"
             width={624}
             height={490}
-            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full"
+            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full hidden md:block"
+          />
+          <Image
+            src="/about-us/group-photo-3-mobile.jpg"
+            alt="group photo"
+            width={1280}
+            height={628}
+            className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full block md:hidden"
           />
       </div>
       <div className="flex flex-col gap-3 my-8 md:items-center md:gap-0 md:flex-row md:justify-between xl:my-16">
@@ -49,7 +71,14 @@ const Culture = () => {
           alt="Group Photo 3"
           width={1280}
           height={628}
-          className="h-[240px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full"
+          className="h-[240px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full hidden md:block"
+        /> 
+         <Image
+          src="/about-us/group-photo-4-mobile.jpg"
+          alt="Group Photo 3"
+          width={1280}
+          height={628}
+          className="h-[240px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full block md:hidden"
         /> 
     </SectionWrapper>
   );

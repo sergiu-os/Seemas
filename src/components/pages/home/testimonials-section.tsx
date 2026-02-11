@@ -31,6 +31,18 @@ const TestimonialsSection = () => {
       authorName: "Sofia Martinez",
       authorTitle: "Digital Marketing Specialist",
     },
+     {
+      quote:
+        "“SeemaS is a game changer. It delivers deeper, more transparent economic insight and audit ready transfer pricing documentation.”",
+      authorName: "Mathijs DeVries",
+      authorTitle: "",
+    },
+     {
+      quote:
+        "“AI is transforming economic analysis in global tax from manual, backward‑looking work into always‑on, rigorously data‑driven analysis, where AI agents handle the analytics and documentation, allowing tax teams reserve their judgment for the truly complex issues.”",
+      authorName: "Jay Kushner ",
+      authorTitle: "",
+    },
   ];
 
   return (

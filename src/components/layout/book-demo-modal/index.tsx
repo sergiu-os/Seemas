@@ -108,7 +108,7 @@ const BookDemoModal = () => {
                     </p>
                   )}
                 </div>
-                <div className="flex flex-col flex-1 px-4 py-6 md:px-14 md:py-14 gap-6 self-stretch bg-neutral-25 md:h-[400px] xl:h-auto">
+                <div className="flex flex-col flex-1 px-4 py-12 rounded-b-md lg:rounded-b-none md:py-6 md:px-14 md:py-14 gap-8 md:gap-16 xl:gap-6 self-stretch bg-neutral-25 md:h-[400px] xl:h-auto">
                   <div className="text-zinc-200 flex-1">
                     <SeemasLogo
                       fill={"currentColor"}
@@ -116,7 +116,7 @@ const BookDemoModal = () => {
                     />
                   </div>
                   <div className="flex flex-col gap-6">
-                    <p className="text-body-l text-zinc-900">
+                    <p className="text-subtitle-xs md:text-body-l text-zinc-900 font-normal">
                       “Tax compliance has become an increasingly complex process
                       for companies operating across multiple jurisdictions. Our
                       mission is to harness the power of AI to eliminate these

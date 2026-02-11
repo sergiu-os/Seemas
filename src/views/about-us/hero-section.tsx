@@ -75,8 +75,8 @@ const HeroSection = () => {
             </>
           }
           description="At SeemaS, we are revolutionizing corporate tax compliance with domain-specific proprietary AI. Our mission is to reduce the time, costs, and complexity of tax planning, enabling global enterprises to focus on growth."
-          titleClassName="max-w-[1068px]"
-          descriptionClassName="max-w-[896px] 2xl:max-w-[720px]"
+          titleClassName="text-h4 max-w-[1068px]"
+          descriptionClassName="max-w-[896px] 2xl:max-w-[890px] text-body-xl md:text-body-xl xl:mb-0 xl:text-body-xl mb-0"
         />
 
         <div className="relative grid grid-cols-1 xl:grid-cols-[536px_616px] gap-6 md:gap-8 xl:gap-16 content-start p-4 md:p-8 rounded-2xl bg-neutral-25 outline outline-1 outline-zinc-100 -outline-offset-1 xl:h-[320px] overflow-hidden">
@@ -115,7 +115,7 @@ const HeroSection = () => {
             Our team has worked with industry leaders worldwide.
           </p>
           <div className="overflow-hidden relative">
-            <div className="absolute top-0 left-0 h-full w-[180px] z-10 bg-[linear-gradient(270deg,rgba(255,255,255,0.00)_0%,#FFF_100%)]" />
+            <div className="absolute top-0 left-0 h-full w-[100px] lg:w-[180px] z-10 bg-[linear-gradient(270deg,rgba(255,255,255,0.00)_0%,#FFF_100%)]" />
             <Marquee speed={50}>
               {logos.map((Logo, index) => (
                 <div
@@ -126,7 +126,7 @@ const HeroSection = () => {
                 </div>
               ))}
             </Marquee>
-            <div className="absolute top-0 right-0 h-full w-[180px] z-10 bg-[linear-gradient(270deg,#FFF_0%,rgba(255,255,255,0.00)_100%)]" />
+            <div className="absolute top-0 right-0 h-full w-[100px] lg:w-[180px] z-10 bg-[linear-gradient(270deg,#FFF_0%,rgba(255,255,255,0.00)_100%)]" />
           </div>
         </div>
       </SectionContainer>

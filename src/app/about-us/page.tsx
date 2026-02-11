@@ -47,8 +47,9 @@ const advisoryBoard = [
   {
     name: "Achin Bhowmik",
     role: "Placeholder",
-    image: "/about-us/investors/jay-kushner.png",
+    image: "/about-us/placeholder.png",
     bottomCaption: "Placeholder",
+    className: "col-start-2",
   },
 
 ]

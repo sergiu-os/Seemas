@@ -18,6 +18,7 @@ const Hero = () => {
             height={1246.22}
             alt="globe-lines"
             className="size-full object-fill"
+            priority
           />
         </div>
         <div className="absolute top-[135px] md:top-[209px] xl:top-[312px] left-1/2 -translate-x-1/2 -translate-y-1/2 z-[2] will-change-transform w-full">
