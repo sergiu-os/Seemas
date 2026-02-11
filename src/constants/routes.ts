@@ -5,7 +5,7 @@
 export const ROUTES = {
   HOME: "/",
   PLATFORM_OVERVIEW: "/platform-overview",
-  DAMODARAN_AI: "https://damodaran.seemas.ai/",
+  DAMODARAN_AI: "/damodaran-ai",
   ABOUT_US: "/about-us",
   BOOK_DEMO: "?book-demo=true",
   SPHERE: "/sphere",

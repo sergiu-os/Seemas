@@ -10,7 +10,7 @@ const Culture = () => {
         headingLevel="h3"
         className="xl:gap-6 mb-14"
         descriptionClassName="2xl:text-xl md:w-[611px] xl:w-[822px] mx-auto text-body-m"
-        titleClassName="text-h4 md:text-h3"
+        titleClassName="text-h4 md:text-h3 mb-4 xl:mb-0"
       />
       <div className="mb-2 lg:mb-6">
         <Image
@@ -28,7 +28,7 @@ const Culture = () => {
           className="h-[176px] w-full object-cover rounded-xl border border-4 border-zinc-200 md:h-full block md:hidden"
         />
       </div>
-      <div className="flex gap-2 lg:gap-8 flex-col md:flex-row">
+      <div className="grid gap-2 lg:gap-8 grid-cols-1 md:grid-cols-2">
           <Image
             src="/about-us/group-photo-2.png"
             alt="Group Photo 1"
