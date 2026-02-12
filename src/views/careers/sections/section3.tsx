@@ -16,14 +16,14 @@ const items = [
       <>
         Email us at <br className="md:hidden" />
         <Link
-          href="mailto:careers@seemas.com"
+          href="mailto:careers@seemas.ai"
           className="text-blue-primary hover:underline"
         >
-          careers@seemas.com
+          careers@seemas.ai
         </Link>
       </>
     ),
-    copyText: "careers@seemas.com",
+    copyText: "careers@seemas.ai",
   },
   {
     icon: IconBrandLinkedinFilled,

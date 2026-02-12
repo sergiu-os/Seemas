@@ -13,6 +13,12 @@ const phrases = [
   "Enhance Visibility",
   "Centralize Information",
   "Strengthen Valuation Support",
+  "Automate Transfer Pricing",
+  "Streamline Compliance",
+  "Mitigate Audit Risk",
+  "Enhance Visibility",
+  "Centralize Information",
+  "Strengthen Valuation Support",
 ];
 
 export default function Switcher({

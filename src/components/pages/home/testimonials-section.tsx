@@ -19,29 +19,19 @@ const TestimonialsSection = () => {
       authorName: "Scott Yogerst",
       authorTitle: "Director of International Tax Planning",
     },
-    {
-      quote:
-        "“SeemaS gives us complete confidence in our compliance process. Their SOC 2–compliant platform and rigorous data security standards were non-negotiable for us—and they delivered.”",
-      authorName: "Jordan Miller",
-      authorTitle: "Operations Manager",
-    },
-    {
-      quote:
-        "“What used to take our team weeks now takes hours. The AI-powered workflows and automated data ingestion have completely transformed how we approach valuation and transfer pricing.”",
-      authorName: "Sofia Martinez",
-      authorTitle: "Digital Marketing Specialist",
-    },
      {
       quote:
         "“SeemaS is a game changer. It delivers deeper, more transparent economic insight and audit ready transfer pricing documentation.”",
-      authorName: "Mathijs DeVries",
-      authorTitle: "",
+      authorName: "Mathijs de Vries",
+      authorTitle: "V.P. of International Tax & Global Transfer Pricing Paramount Global",
+       logo: "/assets/paramount-logo.png"
     },
      {
       quote:
         "“AI is transforming economic analysis in global tax from manual, backward‑looking work into always‑on, rigorously data‑driven analysis, where AI agents handle the analytics and documentation, allowing tax teams reserve their judgment for the truly complex issues.”",
       authorName: "Jay Kushner ",
-      authorTitle: "",
+      authorTitle: " Ex-Senior V.P. of Global Taxation & Treasury Viacom",
+      logo: "/assets/viacom-logo.png"
     },
   ];
 

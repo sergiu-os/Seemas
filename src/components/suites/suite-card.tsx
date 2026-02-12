@@ -7,6 +7,7 @@ export interface SuiteCardItem {
   icon?: React.ReactNode;
   desktopWidth?: number;
   categories?: string[];
+  comingSoon?: boolean;
 }
 
 export interface SuiteCardProps {
@@ -64,6 +65,7 @@ export const SuiteCard = ({
           {item.title}
         </p>
       </div>
+      {item.comingSoon ?  <div className="">Coming Soon</div> : null}
       <p className={cn("text-body-s xl:text-body-m text-zinc-700", descriptionClassName)}>
         {item.description}
       </p>

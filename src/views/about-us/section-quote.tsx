@@ -2,13 +2,11 @@ import Quote from "@/components/testimonial/quote";
 const SectionQuote = () => {
   return (
     <Quote
-      quote="Artificial intelligence will change the way we think about solving problems. It has the capacity to drive innovation across sectors, including transportation, manufacturing, and finance."
-      authorName="Lip-Bu Tan"
-      authorTitle="SeemaS Investor & Board Member"
-      authorImageSrc="/assets/testimonials/lip-bu-tan.png"
-      authorImageAlt="Lip-Bu Tan avatar"
-      contentWrapperClassName="xl:max-w-[1140px]"
-      showLogo={false}
+      quote="Tax compliance has become an increasingly complex process for companies operating <br class='hidden xl:block' />  across multiple jurisdictions. Our mission is to harness the power of AI to eliminate these  <br class='hidden xl:block' /> pain points, giving companies a trusted, autonomous solution that simplifies compliance <br class='hidden xl:block' /> while ensuring accuracy."
+      authorName="Atulya Sarin, Ph.D."
+      authorTitle="CEO & Founder"
+      authorImageSrc="/assets/testimonials/atulya-sarin.png"
+      authorImageAlt="Atulya Sarin avatar"
     />
   );
 };

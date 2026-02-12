@@ -32,6 +32,11 @@ export const leadershipTeamMembers: ProfileType[] = [
     bottomCaption: "NetApp, Carbonite, Workiva",
   },
   {
+    name: "Girish Raja",
+    role: "Director of Product Management",
+    image: "/about-us/avatars/Girish Raja.png",
+  },
+  {
     image: "/about-us/avatars/Karen Marinov.png",
     name: "Karen Marinov, MBA",
     role: "Director of Business Operations",
@@ -71,11 +76,6 @@ export const technicalTeamMembers: ProfileType[] = [
     name: "Dmitriy Honchar",
     role: "UX/UI Designer",
     image: "/about-us/avatars/Dmitriy Honchar.png",
-  },
-  {
-    name: "Girish Raja",
-    role: "Director of Product Management",
-    image: "/about-us/avatars/Girish Raja.png",
   },
   {
     name: "Ilya Kret",

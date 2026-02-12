@@ -46,9 +46,9 @@ const advisoryBoard = [
   },
   {
     name: "Achin Bhowmik",
-    role: "Placeholder",
-    image: "/about-us/placeholder.png",
-    bottomCaption: "Placeholder",
+    role: "CTO & Executive VP of Engineering",
+    image: "/about-us/investors/achin.png",
+    bottomCaption: "Starkey Hearing",
     className: "col-start-2",
   },
 
@@ -60,12 +60,12 @@ const AboutUsPage = () => {
       <TeamSection />
       <InvestorsSection
         title="Our Investors"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description=""
         items={investors}
       />
       <InvestorsSection
         title="Our Advisory Board"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description=""
         items={advisoryBoard}
       />
       <SectionQuote />

@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
 import {
   Popover,
   PopoverClose,
-  PopoverContent,
-  PopoverTrigger,
+  PopoverContent
 } from "@/components/ui/popover";
 import { external_loginOptions } from "@/config/site";
 import { cn } from "@/lib/utils";
@@ -13,21 +11,6 @@ import Link from "next/link";
 const LoginDropdown = () => {
   return (
     <Popover>
-      <PopoverTrigger asChild>
-        <Button
-          variant={"outline"}
-          size={"M"}
-          className={cn(
-            "inline-flex text-zinc-800 data-[state=open]:bg-white data-[state=open]:outline-zinc-300",
-            `group-[.dark-mode]:bg-zinc-900 group-[.dark-mode]:text-white 
-        group-[.dark-mode]:hover:bg-zinc-800 
-        group-[.dark-mode]:data-[state=open]:bg-zinc-900
-        group-[.dark-mode]:disabled:bg-zinc-200 group-[.dark-mode]:disabled:text-zinc-500 group-[.dark-mode]:outline-none`
-          )}
-        >
-          Log In
-        </Button>
-      </PopoverTrigger>
 
       <PopoverContent
         className="w-[280px] md:w-[418px] bg-neutral-75 border border-zinc-100 rounded-2xl shadow-none p-1 gap-1 flex items-center"

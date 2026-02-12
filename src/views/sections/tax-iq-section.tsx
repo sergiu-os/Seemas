@@ -12,7 +12,7 @@ const TaxIQSection = () => {
         <div className="relative z-[2] h-full flex flex-col items-center justify-between gap-6">
           <header className="max-w-[310px] md:max-w-[532px] xl:max-w-[642px] text-center">
             <h3 className="text-subtitle-xl md:text-h4 xl:text-h3 text-gray-900 mb-4">
-              Meet <span className="text-blue-primary">TaxIQ</span>
+              SeemaS <span className="text-blue-primary">Tax IQ</span>
             </h3>
             <p className="text-body-s md:text-body-m text-zinc-800 mb-6 md:mb-8">
              Have a world-class transfer pricing expert just a click away.

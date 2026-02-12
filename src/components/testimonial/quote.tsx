@@ -51,8 +51,7 @@ const logoIcon = logo ? logo : <SeemasLogoIcon fill="currentColor" className="w-
             {logoIcon}
         </div>
         )}
-        <p className="text-body-xl md:text-body-xxl text-zinc-900 text-center">
-        “{quote}”
+        <p className="text-body-xl md:text-body-xxl text-zinc-900 text-center" dangerouslySetInnerHTML={{ __html: quote }} >
         </p>
         {withSeparator && (
             <div className="h-[1px] bg-zinc-200 w-full mx-auto xl:w-[800px]" />

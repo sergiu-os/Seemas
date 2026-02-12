@@ -34,7 +34,7 @@ const ExploreSection = ({ title, cards, wrapperClassName }: ExploreSectionProps)
             <div className="flex justify-between items-center">
                 <h2 className={cn("text-subtitle-xl text-zinc-900 w-[222px] md:text-h3 md:w-[355px] xl:w-full", cardsNumber(cards || []) > 4 ? "w-[241px] md:w-[513px]" : "")} dangerouslySetInnerHTML={{ __html: title || "" }} />
                  <Image
-                                src="/assets/logo-graphic-2.png"
+                                src="/assets/logo-graphic.png"
                                 alt="logo-graphic"
                                 className="mb-auto w-[97px] md:w-auto"
                                 width={164}

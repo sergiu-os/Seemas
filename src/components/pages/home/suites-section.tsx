@@ -71,7 +71,7 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
                 title: <Image src="/assets/Damodaran-logo.svg" alt="damodaran-logo" width={132} height={26} />,
                 icon: <IconSparkles2 size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
                 description:
-                  "AI-Expert using professor Damodorans knowledge base to answer valuation questions.",
+                  "AI-Expert using professor Damodaran’s knowledge base to answer valuation questions.",
               },
             ]}
             center={
@@ -112,29 +112,33 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
                   "Country-by-country filings with data integrity.",
               },
               {
-                title: "Pillar 2 Compliance",
+                title: "Valuing Intangibles",
                 icon: <IconShieldCheck size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+                comingSoon: true,
                 description:
-                  "Manage global minimum tax requirements through AI monitoring.",
+                  "AI-Powered Benchmarking for Intangibles and Royalties.",
               },
               
               {
                 title: "Functional Interviews",
                 icon: <IconMessage size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+                comingSoon: true,
                 description:
                   "AI interview agents to capture insights from stakeholder discussions.",
               },
               {
                 title: "Operational TP",
                 icon: <IconCalculator size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+                comingSoon: true,
                 description:
                   "Transaction-level calculations, reconciliations, and true-ups using AI.",
               },
               {
-                title: "Value Chain Analysis",
+                title: "Segmented P&L",
                 icon: <IconGitMerge size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+                comingSoon: true,
                 description:
-                  "Map and analyze global value chains with AI-powered transparency.",
+                  "Automate and optimize segmented P&L using AI",
               },
             ]}
             center={

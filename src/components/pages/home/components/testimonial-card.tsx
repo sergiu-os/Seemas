@@ -3,8 +3,6 @@ import { cn } from "@/lib/utils";
 import FeatureCardGradientDecor from "@/components/cards/elements/FeatureCardGradientDecor";
 import Image from "next/image";
 
-const logo = "/assets/johnson-controls-logo-1.png"
-
 export interface TestimonialCardProps {
   quote: React.ReactNode;
   authorName: React.ReactNode;
@@ -12,6 +10,7 @@ export interface TestimonialCardProps {
   /** Bottom-right corner asset (logo, mark, etc.) */
   cornerAsset?: React.ReactNode;
   className?: string;
+  logo?: string;
 }
 
 const TestimonialCard = ({
@@ -20,6 +19,7 @@ const TestimonialCard = ({
   authorTitle,
   cornerAsset,
   className,
+  logo,
 }: TestimonialCardProps) => {
   return (
     <article
@@ -44,7 +44,7 @@ const TestimonialCard = ({
               cornerAsset
             ) : (
               <div>
-                <Image src={logo} alt="logo" width={100} height={100} />
+                <Image src={logo || "/assets/johnson-controls-logo-1.png"} alt="logo" width={100} height={100} />
               </div>
             )}
           </div>
