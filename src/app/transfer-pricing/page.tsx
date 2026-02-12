@@ -220,7 +220,7 @@ const TransferPricingPage = () => {
               image: apartImage2,
             },
             {
-              title: "Curated Datasets",
+              title: "AI-Curated Datasets",
               description: "Valuation and transfer pricing datasets curated with AI for benchmarking and defensible assumptions, normalized for consistent analysis across methods and industries.",
               image: apartImage3,
             },
