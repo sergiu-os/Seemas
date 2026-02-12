@@ -28,7 +28,7 @@ const ApartSection = ({ cards }: ApartSectionProps) => {
             {cards.map((card: ApartCard, index) => (
                 <div key={index} className="flex flex-col bg-neutral-50 rounded-2xl border border-zinc-100 overflow-hidden">
                     <div className="w-full h-fit">
-                        <Image src={card.image} alt={card.title} width={628} height={400} className="w-full h-full object-cover" />
+                        <Image src={card.image} alt={card.title} width={628} height={400} className="w-full h-full object-cover" unoptimized />
                     </div>
                     <div className="p-6 flex flex-col gap-1">
                         <p className="text-subtitle-s md:text-subtitle-l text-gray-900">{card.title}</p>

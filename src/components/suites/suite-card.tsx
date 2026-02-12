@@ -56,16 +56,17 @@ export const SuiteCard = ({
         {item.icon ? (
           <div className={cn("w-fit", iconWrapperClassName)}>{item.icon}</div>
         ) : null}
-        <p
+        <div
           className={cn(
             "text-subtitle-s xl:text-subtitle-m text-zinc-900",
             titleClassName
           )}
         >
           {item.title}
-        </p>
+          {item.comingSoon ?  <div className="text-xs text-gray-600 font-semibold">Coming Soon</div> : null}
+        </div>
       </div>
-      {item.comingSoon ?  <div className="">Coming Soon</div> : null}
+   
       <p className={cn("text-body-s xl:text-body-m text-zinc-700", descriptionClassName)}>
         {item.description}
       </p>

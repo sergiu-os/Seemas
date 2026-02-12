@@ -75,7 +75,7 @@ const TransferPricingPage = () => {
         />
         <ExploreSection 
           title="Explore the <br class='block 2xl:hidden' />Transfer Pricing Suite"
-          wrapperClassName="pt-[80px] md:pt-[200px] xl:pt-[50px]"
+          wrapperClassName="pt-[80px] md:pt-[200px] xl:pt-0"
           cards={[ 
             {
               title: "Master File",
