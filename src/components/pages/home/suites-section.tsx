@@ -12,17 +12,17 @@ import {
     IconFileText,
     IconChartDots3,
     IconBuildingBank,
-    IconShieldCheck,
+    IconCertificate,
     IconWorld,
     IconMessage,
     IconCalculator,
-    IconGitMerge
+    IconChartPie
 } from "@tabler/icons-react";
 import SectionHeader from "@/components/sections/section-header";
 import { cn } from "@/lib/utils";
 
 const iconSize = 32;
-const iconStrokeWidth = 1.8;
+const iconStrokeWidth = 1.5;
 const iconStrokeColor = '#266AE9';
 
 const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headingLevel?: "h2" | "h3" | "h4" | "h5" | "h6", sectionWrapperClassName?: string }) => {
@@ -71,7 +71,7 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
                 title: <Image src="/assets/Damodaran-logo.svg" alt="damodaran-logo" width={132} height={26} />,
                 icon: <IconSparkles2 size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
                 description:
-                  "AI-Expert using professor Damodaran’s knowledge base to answer valuation questions.",
+                  "AI-Expert using Professor Damodaran’s knowledge base to answer valuation questions.",
               },
             ]}
             center={
@@ -113,8 +113,7 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
               },
               {
                 title: "Valuing Intangibles",
-                icon: <IconShieldCheck size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
-                comingSoon: true,
+                icon: <IconCertificate size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
                 description:
                   "AI-Powered Benchmarking for Intangibles and Royalties.",
               },
@@ -135,7 +134,7 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
               },
               {
                 title: "Segmented P&L",
-                icon: <IconGitMerge size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+                icon: <IconChartPie size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
                 comingSoon: true,
                 description:
                   "Automate and optimize segmented P&L using AI",
@@ -145,7 +144,7 @@ const SuitesSection = ({ headingLevel = "h2", sectionWrapperClassName }: { headi
               <Image
               src="/assets/logo-graphic-2.png"
               alt="logo-graphic"
-              className="max-w-[164px] max-h-[80px] md:max-w-[238px] md:max-h-[116px] xl:max-w-[400px] xl:max-h-[195px]"
+              className="max-w-[164px] max-h-[80px] md:max-w-[238px] md:max-h-[116px] xl:max-w-[400px] xl:max-h-[195px] xl:mt-[-16px]"
               width={400}
               height={195}
               />

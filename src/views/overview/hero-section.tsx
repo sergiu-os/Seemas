@@ -23,7 +23,7 @@ const HeroSection = () => {
         ]}
       />
 
-      <div className="absolute z-[2] left-1/2 scale-(2) -translate-x-1/2 bottom-0 md:-bottom-[100px] lgg:-bottom-[230px] xl:-bottom-[100px] 2xl:-bottom-[285px] w-full h-auto">
+      <div className="absolute z-[2] left-1/2 scale-(2) -translate-x-1/2 bottom-0 md:-bottom-[100px] lgg:-bottom-[230px] xl:-bottom-[100px] 2xl:-bottom-[285px] w-full h-auto 4xl:w-[70vw]">
         <video autoPlay muted playsInline loop className="w-full h-auto object-cover pointer-events-none scale-[1.8] lg:scale-[1.5] lgg:scale-[1.1]">
           <source src="/assets/videos/tiles.mp4" type="video/mp4" />
         </video>

@@ -17,20 +17,20 @@ const TestimonialsSection = () => {
       quote:
         "“The SeemaS valuation tool provides our organization with accurate, easy to interpret real-time valuations for entities and loans, which has significantly improved our transaction planning and execution process.”",
       authorName: "Scott Yogerst",
-      authorTitle: "Director of International Tax Planning",
+      authorTitle: "Director of International Tax Planning, Johnson Controls International ",
     },
      {
       quote:
         "“SeemaS is a game changer. It delivers deeper, more transparent economic insight and audit ready transfer pricing documentation.”",
       authorName: "Mathijs de Vries",
-      authorTitle: "V.P. of International Tax & Global Transfer Pricing Paramount Global",
+      authorTitle: "V.P. of International Tax & Global Transfer Pricing, Paramount Global",
        logo: "/assets/paramount-logo.png"
     },
      {
       quote:
         "“AI is transforming economic analysis in global tax from manual, backward‑looking work into always‑on, rigorously data‑driven analysis, where AI agents handle the analytics and documentation, allowing tax teams reserve their judgment for the truly complex issues.”",
       authorName: "Jay Kushner ",
-      authorTitle: " Ex-Senior V.P. of Global Taxation & Treasury Viacom",
+      authorTitle: " Ex-Senior V.P. of Global Taxation & Treasury, Viacom",
       logo: "/assets/viacom-logo.png"
     },
   ];

@@ -1,7 +1,6 @@
 import Hero from "@/components/pages/home/hero";
 import SuitesSection from "@/components/pages/home/suites-section";
 import SectionPlatform from "@/components/pages/home/section-platform";
-import Section6 from "@/components/pages/home/section6";
 import PageWrapper from "@/components/pages/page-wrapper";
 import WhyUs from "@/components/pages/home/why-us";
 import TestimonialsSection from "@/components/pages/home/testimonials-section";
@@ -37,7 +36,7 @@ const Home = () => {
             },
         ]}
       />
-      <Section6 />
+     
       <WhyUs />
       <TestimonialsSection />
       <Section4 />

@@ -29,7 +29,7 @@ export default function HeroBadge({
       )}
     >
       {leftIcon}
-      <span className={cn("md:text-nowrap text-sm font-semibold", textClassName)}>
+      <span className={cn("md:text-nowrap text-sm font-medium", textClassName)}>
         {text}
       </span>
       {rightIcon}

@@ -67,42 +67,42 @@ const WhyUs = () => {
                 title: "End-to-End Automation",
                 description:
                     "Automate valuation and transfer pricing analysis and documentation workflows.",
-                icon: <IconSettings size={24} color="#27272A"/>,
+                icon: <IconSettings size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 {
                 value: "collaboration",
                 title: "Cross-Border Collaboration",
                 description:
                     "Collaborate seamlessly on intercompany pricing policies across jurisdictions.",
-                icon: <IconUsers size={24} color="#27272A"/>,
+                icon: <IconUsers size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 {
                 value: "monitoring",
                 title: "Arm’s Length Monitoring",
                 description:
                     "Create AI-powered workflows for setting and monitoring arm's length terms.",
-                icon: <IconFileSearch size={24} color="#27272A"/>,
+                icon: <IconFileSearch size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 {
                 value: "compliance",
                 title: "Built-In Compliance",
                 description:
                     "Stay aligned with evolving transfer pricing and valuation rules and standards.",
-                icon: <PatentIcon fill="#27272A" size={24} />,
+                icon: <PatentIcon fill="#27272A" size={24} strokeWidth={1.5}/>,
                 },
                 {
                 value: "source-of-truth",
                 title: "Single Source of Truth",
                 description:
                     "Work from a single source of truth for intercompany data, methods, and policies.",
-                icon: <IconDatabase size={24} color="#27272A"/>,
+                icon: <IconDatabase size={24} color="#27272A" strokeWidth={1.5} />,
                 },
                 {
                 value: "reporting",
                 title: "Faster, Higher-Quality Reporting",
                 description:
                     "Reduce report preparation time while improving documentation quality.",
-                icon: <IconBolt size={24} color="#27272A"/>,
+                icon: <IconBolt size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
             ]}
             className="xl:w-[480px]"
@@ -113,13 +113,13 @@ const WhyUs = () => {
                     title: "Expert validated",
                     description:
                     "Combine AI-driven efficiency with expert-validated results you can trust.",
-                    icon: <IconUserCheck size={24} color="#27272A"/>,
+                    icon: <IconUserCheck size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 {
                     title: "Trusted by Enterprise Teams",
                     description:
                     "Protect your data with our SOC 2 Type II certified platform.",
-                    icon: <IconShieldCheck size={24} color="#27272A"/>,
+                    icon: <IconShieldCheck size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 ]}
                 className="flex gap-8 flex xl:hidden"

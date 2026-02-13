@@ -15,19 +15,19 @@ const cards = [
         iconKey: "settings",
         title: "Method Selection",
         description: "Guardrailed method selection based on engagement context and instrument-specific assumptions.",
-        timestamp: ["00:19", "00:34"],
+        timestamp: ["00:20", "00:34"],
     },
     {
         iconKey: "chart",
         title: "Analysis",
         description: "Expert model for estimating reliable arm’s length pricing under multiple scenarios.",
-        timestamp: ["00:34", "00:56"],
+        timestamp: ["00:36", "00:56"],
     },
     {
         iconKey: "fileDescription",
         title: "Report Authoring",
         description: "LLM-powered authoring generates reports from enterprise templates with AI-assisted edits.",
-        timestamp: ["00:56", "01:16"],
+        timestamp: ["00:59", "01:16"],
     }
 ] satisfies ScrollableVideoProps["cards"];
 

@@ -12,6 +12,7 @@ interface ExploreSectionProps {
     title?: string;
     cards?: ExploreCardItem[];
     wrapperClassName?: string;
+    logoImageSrc?: string;
 }
 
 const cardsNumber = (cards: ExploreCardItem[]) => {
@@ -22,7 +23,7 @@ const exploreBackgroundDesktop = "/valuation-suite/explore-background-desktop.pn
 const exploreBackgroundTablet = "/valuation-suite/explore-background-tablet.png";
 const exploreBackgroundMobile = "/valuation-suite/explore-background-mobile.png";
 
-const ExploreSection = ({ title, cards, wrapperClassName }: ExploreSectionProps) => {
+const ExploreSection = ({ title, cards, wrapperClassName, logoImageSrc }: ExploreSectionProps) => {
   return (
     <SectionWrapper className={cn("pt-[160px] md:pt-[200px] xl:pt-[224px] bg-neutral-50", wrapperClassName)}>
         <div className="absolute top-0 left-0 w-full h-full z-[1]">
@@ -34,7 +35,7 @@ const ExploreSection = ({ title, cards, wrapperClassName }: ExploreSectionProps)
             <div className="flex justify-between items-center">
                 <h2 className={cn("text-subtitle-xl text-zinc-900 w-[222px] md:text-h3 md:w-[355px] xl:w-full", cardsNumber(cards || []) > 4 ? "w-[241px] md:w-[513px]" : "")} dangerouslySetInnerHTML={{ __html: title || "" }} />
                  <Image
-                                src="/assets/logo-graphic.png"
+                                src={logoImageSrc || "/assets/logo-graphic.png"}
                                 alt="logo-graphic"
                                 className="mb-auto w-[97px] md:w-auto"
                                 width={164}

@@ -8,18 +8,19 @@ import {
   IconWorld,
   IconMessage,
   IconCalculator,
-  IconGitMerge,
+  IconCertificate,
   IconFileReport,
   IconLayoutGrid,
   IconFileShredder,
   IconSettings,
   IconChartInfographic,
   IconFileDescription,
+  IconChartPie
 } from "@tabler/icons-react";
 import ExploreSection from "@/views/valuation-suite/explore-section";
 import SectionPlatform from "@/components/pages/home/section-platform";
 import ApartSection from "@/views/valuation-suite/apart-section";
-import apartImage1 from "../../../public/valuation-suite/apart-image-1.png";
+import apartImage1 from "../../../public/transfer-pricing/apart-image-1.png";
 import apartImage2 from "../../../public/valuation-suite/apart-image-2.png";
 import apartImage3 from "../../../public/valuation-suite/apart-image-3.png";
 import apartImage4 from "../../../public/valuation-suite/apart-image-4.png";
@@ -76,6 +77,7 @@ const TransferPricingPage = () => {
         <ExploreSection 
           title="Explore the <br class='block 2xl:hidden' />Transfer Pricing Suite"
           wrapperClassName="pt-[80px] md:pt-[200px] xl:pt-0"
+          logoImageSrc="/assets/logo-graphic-2.png"
           cards={[ 
             {
               title: "Master File",
@@ -127,6 +129,12 @@ const TransferPricingPage = () => {
               description:
                 "Transaction-level calculations, reconciliations, and true-ups using AI.",
             },
+             {
+              title: "Valuing Intangibles",
+              icon: <IconCertificate size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+              description:
+                "AI-Powered Benchmarking for Intangibles and Royalties.",
+            },
             {
               title: "Benchmarking",
               icon: (
@@ -140,19 +148,7 @@ const TransferPricingPage = () => {
               description:
                 "Identify arm’s-length comparables using machine learning.",
             },
-            {
-              title: "Pillar 2 Compliance",
-              icon: (
-                <IconShieldCheck
-                  size={iconSize}
-                  strokeWidth={iconStrokeWidth}
-                  color={iconStrokeColor}
-                  className="size-7 xl:size-8"
-                />
-              ),
-              description:
-                "Manage global minimum tax requirements through AI monitoring.",
-            },
+           
             {
               title: "Functional Interviews",
               icon: (
@@ -167,17 +163,11 @@ const TransferPricingPage = () => {
                 "AI interview agents to capture insights from stakeholder discussions.",
             },
             {
-              title: "Value Chain Analysis",
-              icon: (
-                <IconGitMerge
-                  size={iconSize}
-                  strokeWidth={iconStrokeWidth}
-                  color={iconStrokeColor}
-                  className="size-7 xl:size-8"
-                />
-              ),
+              title: "Segmented P&L",
+              icon: <IconChartPie size={iconSize} strokeWidth={iconStrokeWidth} color={iconStrokeColor}/>,
+              comingSoon: true,
               description:
-                "Map and analyze global value chains with AI-powered transparency.",
+                "Automate and optimize segmented P&L using AI",
             },
           ]}
         />

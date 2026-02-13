@@ -35,6 +35,7 @@ export const leadershipTeamMembers: ProfileType[] = [
     name: "Girish Raja",
     role: "Director of Product Management",
     image: "/about-us/avatars/Girish Raja.png",
+    bottomCaption: "UTA, MSFT, AMZ, AWS",
   },
   {
     image: "/about-us/avatars/Karen Marinov.png",
