@@ -22,6 +22,7 @@ export default {
       "2xl": "1536px",
       "3xl": "1920px",
       "4xl": "2000px",
+      "5xl": "2560px",
     },
     extend: {
       colors: {

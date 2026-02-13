@@ -1,8 +1,5 @@
-import { Button } from "@/components/ui/button";
 import TaxIQSectionBg from "./components/tax-iq-section-bg";
 import Image from "next/image";
-import { LinkWrapper } from "@/components/custom-ui/link-wrapper";
-import { external_links } from "@/config/site";
 
 const TaxIQSection = () => {
   return (
@@ -17,9 +14,6 @@ const TaxIQSection = () => {
             <p className="text-body-s md:text-body-m text-zinc-800 mb-6 md:mb-8">
              Have a world-class transfer pricing expert just a click away.
             </p>
-            <LinkWrapper href={external_links.seemas_taxiq}>
-              <Button>Try now</Button>
-            </LinkWrapper>
           </header>
 
           <div className="w-full max-w-[334px] md:max-w-[656px] xl:max-w-[1120px] h-[196px] md:h-[320px] xl:h-[495px] px-2 pt-2 md:px-4 md:pt-4 xl:px-6 xl:pt-8 bg-[rgba(255,255,255,0.40)] backdrop-blur-[5px] rounded-t-[10px] md:rounded-t-[20px] border border-b-0 border-white shadow-[0_4px_8px_0_rgba(5,6,27,0.03)_inset]">
