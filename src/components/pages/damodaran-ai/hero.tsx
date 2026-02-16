@@ -19,7 +19,7 @@ const Hero = () => {
         absolute 
         right-1/2
         xl:-right-[400px] 
-        2xl:-right-[200px]
+        2xl:-right-[300px]
         translate-x-1/2 
         top-[65%]
         md:top-[35%]
@@ -30,15 +30,14 @@ const Hero = () => {
         md:max-h-none 
         xl:translate-x-0 
         xl:bottom-auto 
-        xl:top-[180px] 
-        aspect-[16/9] 
+        xl:top-0
         md:scale-[0.6] 
         top-[280px]
        
       ">
         <video src="/assets/videos/ai-stars.mp4" autoPlay loop playsInline muted className="w-full h-full object-cover" />
       </div>
-      <div className="absolute bg-[radial-gradient(44.34%_50.9%_at_50%_62.68%,rgba(250,250,250,0.00)_0%,rgba(250,250,250,0.80)_100%)] w-[404px] h-[397px] right-1/2 translate-x-1/2 -bottom-[18px] md:w-[680px] md:h-[667px] md:bottom-0 xl:w-[970px] xl:h-[952px] xl:right-0 xl:bottom-0 xl:translate-x-0 3xl:right-[calc((100vw-1280px)/2-320px)]" />
+      <div className="absolute bg-[radial-gradient(44.34%_50.9%_at_50%_62.68%,rgba(250,250,250,0.00)_0%,rgba(250,250,250,0.80)_100%)] w-[404px] h-[397px] right-1/2 translate-x-1/2 -bottom-[18px] md:w-[680px] md:h-[667px] md:bottom-0 xl:w-[970px] xl:h-[952px] xl:right-0 xl:bottom-0 xl:translate-x-0 3xl:right-[calc((100vw-1280px)/2-320px)] 4xl:right-0 4xl:width-[1000px]" />
       <div className="flex justify-between absolute md:bottom-[20px] xl:-bottom-[200px] md:gap-[400px] md:left-1/2 md:-translate-x-1/2 xl:translate-x-0 xl:gap-0 xl:left-0 xl:right-0">
         {[0, 1].map((item) => (
           <div
