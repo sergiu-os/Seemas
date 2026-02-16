@@ -48,13 +48,13 @@ const WhyUs = () => {
                     title: "Expert validated",
                     description:
                     "Combine AI-driven efficiency with expert-validated results you can trust.",
-                    icon: <IconUserCheck size={24} color="#27272A"/>,
+                    icon: <IconUserCheck size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 {
                     title: "Trusted by Enterprise Teams",
                     description:
                     "Protect your data with our SOC 2 Type II certified platform.",
-                    icon: <IconShieldCheck size={24} color="#27272A"/>,
+                    icon: <IconShieldCheck size={24} color="#27272A" strokeWidth={1.5}/>,
                 },
                 ]}
                 className="flex gap-8 hidden xl:flex"
