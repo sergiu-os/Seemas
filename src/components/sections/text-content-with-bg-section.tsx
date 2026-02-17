@@ -7,6 +7,7 @@ interface TextContentWithBgSectionProps extends SectionHeaderProps {
   href: string;
   children?: React.ReactNode;
   containerClassName?: string;
+  subtitle?: string;
 }
 const TextContentWithBgSection = ({
   actionBtnProps: { children: buttonChildren, ...actionBtnProps },
@@ -14,6 +15,7 @@ const TextContentWithBgSection = ({
   className,
   containerClassName,
   children,
+  subtitle,
   ...rest
 }: TextContentWithBgSectionProps) => {
   return (
@@ -32,6 +34,9 @@ const TextContentWithBgSection = ({
         <Button asChild {...actionBtnProps}>
           <Link href={href}>{buttonChildren}</Link>
         </Button>
+        {subtitle && (
+          <p className="text-center text-sm text-neutral-500 max-w-[600px] italic" dangerouslySetInnerHTML={{ __html: subtitle }} />
+        )}
       </div>
 
       <svg

@@ -13,6 +13,7 @@ const section4 = () => {
         title="Ask Damodaran Today"
         description="Unlock fast, reliable valuation insights powered by decades of expertise. Whether you're a student, investor, or professional — get the valuation clarity you need, when you need it. Start exploring for free."
         containerClassName="px-8"
+        subtitle={'While Professor Damodaran has been supportive of our efforts, <br class="hidden lg:inline" /> he has no official role with or financial stake in SeemaS.'}
       />
     </SectionWrapper>
   );
